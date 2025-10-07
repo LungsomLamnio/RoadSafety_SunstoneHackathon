@@ -18,7 +18,7 @@ from keras.preprocessing.image import ImageDataGenerator
 #Parameter
 path = "C:\\Users\\ABHISHEK KUMAR\\Desktop\\DevJam\\rmodel_trained.p" # folder with all the class folders
 labelFile = r'C:\Users\ABHISHEK KUMAR\Desktop\DevJam\labels.csv' # file with all names of classes
-batch_size_val=50  # how many to process together
+batch_size_val=50  # how many to process togethers
 steps_per_epoch_val=2000
 epochs_val=10
 imageDimesions = (32,32,3)
