@@ -16,7 +16,7 @@ import cv2
 
 
 
-# Some supporting functions for facial processing
+# Some supporting functions for facial processings
 
 
 
