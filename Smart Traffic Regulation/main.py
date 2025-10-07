@@ -12,7 +12,7 @@ from threading import Timer
 
 graph = tf.Graph()
 with graph.as_default():
-    #od_graph_def = tf.GraphDef()
+    #od_graph_def = tf.GraphDef
     od_graph_def = tf.compat.v1.GraphDef()
     with tf.io.gfile.GFile('./ssd_mobilenet_v1_coco/frozen_inference_graph.pb', 'rb') as data:
         serialized_graph = data.read()
