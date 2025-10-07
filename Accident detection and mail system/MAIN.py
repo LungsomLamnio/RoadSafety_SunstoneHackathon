@@ -1,4 +1,4 @@
-#Import necessary packages
+#Import necessary package
 import numpy as np
 import cv2
 import math, operator
